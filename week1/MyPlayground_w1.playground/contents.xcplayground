@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1_Git_n_GitHub'/>
+        <page name='2_Basic'/>
+        <page name='3_Collection'/>
+        <page name='4_Control Flow'/>
+        <page name='5_Function'/>
+    </pages>
+</playground>
