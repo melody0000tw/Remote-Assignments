@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Part1_Object_Oriented_Swift'/>
+        <page name='Part2_Enum_and_Optionals'/>
+        <page name='Part3_Protocol'/>
+        <page name='Part4_Error_Handling'/>
+    </pages>
+</playground>
