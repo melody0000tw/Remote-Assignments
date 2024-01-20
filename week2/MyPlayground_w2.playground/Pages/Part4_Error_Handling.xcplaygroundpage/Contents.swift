@@ -27,4 +27,5 @@ class GuessNumberGame {
 
 try GuessNumberGame().guess(number:20)
 
+
 //: [Next](@next)
