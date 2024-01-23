@@ -12,7 +12,7 @@ import Foundation
  ### 1. There are several gasoline types, 92, 95, 98, and diesel that we can use enum to model them.
     - Please declare an enum named Gasoline to model gasoline.
     - Every kind of gasoline has its price. Please declare a computed property named price and a method named getPrice separately in Gasoline enum that both will return different prices depending on different gasoline.
-    - Please establish raw values for . The data type of raw value should be String. For example, should be “92”.
+    - Please establish raw values for Gasoline. The data type of raw value should be String. For example,  Gasoline.oil92.rawValue should be “92”.
     - Please explain what enum associated value is and how it works.
  
  */
@@ -41,6 +41,7 @@ enum Gasoline: String {
 
 let gasoline = Gasoline.oil98
 print(gasoline.price)
+print(gasoline.rawValue)
 
 
 /*:
@@ -92,9 +93,9 @@ func printPetName(people: People) {
     return
 }
 
-// ----------if let--------------//
-
 printPetName(people: peopleHavePet)
+
+// ----------if let--------------//
 
 let peopleDontHavePet = People()
 func printPetName1(people: People) {
